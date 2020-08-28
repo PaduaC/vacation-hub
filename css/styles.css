@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&family=Shrikhand&display=swap");
+html, body, header, .image-box {
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  background-color: #000000;
+  color: white;
+}
+
+main {
+  font-family: "Raleway", sans-serif;
+}
+
+#landing {
+  text-shadow: 2px 1px 2px rgba(29, 29, 29, 0.6);
+}
+
+.navbar {
+  color: white;
+  text-shadow: 2px 1px 2px rgba(29, 29, 29, 0.6);
+}
+
+header {
+  width: auto;
+  background: url("https://wallpaperaccess.com/full/6249.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.active {
+  font-weight: bold;
+}
+
+#desc-icon {
+  font-size: 40px;
+}
+
+#desc-icon-large {
+  font-size: 100px;
+}
+
+.image-box {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(16, 18, 131, 0.28);
+}
+
+#hotel-img {
+  width: 450px;
+  height: 400px;
+}
+
+hr {
+  background: white;
+}
+
+footer {
+  background-color: #05195B;
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #FFAF47;
+  text-decoration: none;
+}
+footer hr {
+  background: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
